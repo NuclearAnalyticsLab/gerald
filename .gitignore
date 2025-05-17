@@ -18,9 +18,6 @@
 # Output files from R CMD check
 /*.Rcheck/
 
-# RStudio files
-.Rproj.user/
-
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -37,9 +34,10 @@ vignettes/*.pdf
 *.knit.md
 
 # R Environment Variables
-.Renviron
+*.Renviron
 
-# pkgdown site
+# documentation / pkgdown site
+doc/*
 docs/
 
 # translation temp files
@@ -47,3 +45,24 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Development / Playground
+dev/
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+*.Ruserdata
+*.Rprofile
+
+# renv
+renv.lock
+renv/
+
+# Output files, figures, etc.
+data/
+outputs/
+src/
+
+# macOS
+*.DS_Store
