@@ -1,11 +1,6 @@
-# Pull Request
-
-## Overview
+# \[PR\] Pull Request
 <!-- Provide a detailed description of the issue and approach in this PR. -->
 <!-- Include relevant links to issues closed with Closes # -->
-<!-- Add Issue Type Label: Bug, Feature Request, Documentation Update, etc. -->
-Issue Type:
-
 Issue: Closes #
 <!-- Insert Overview or Description Below -->
 
@@ -27,3 +22,5 @@ Issue: Closes #
 <!-- If applicable, add mockups or references to similar. -->
 <!-- Add any other context, use cases, scripts or screenshots. -->
 <!-- References to data, docs, scripts, etc. are helpful. -->
+<!-- Add footnotes by referencing footnote[^1]. -->
+<!-- [^1]: [Footnote referenced in doc]() -->
