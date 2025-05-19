@@ -90,7 +90,7 @@ get_league_users <- function(league_id) {
   user <- content |>
     jsonlite::fromJSON() |>
     tibble::tibble() |>
-    tidyr::unnest_wider(1)
+    tidyr::unnest_wider(1, names_sep = "_")
 
   return(user)
 }
